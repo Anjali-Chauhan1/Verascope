@@ -1,0 +1,11 @@
+Example_ID,Type,True_Label,Predicted_Label,Confidence,Top_Contributing_Features
+1,correct,Fake,Fake,95.77,"[(np.str_('com'), -0.04566837077144223), (np.str_('VIDEO'), -0.04237784063100717), (np.str_('pic'), -0.0277925086435316), (np.str_('Obama'), -0.02182132144185025)]"
+2,correct,Fake,Fake,99.23,"[(np.str_('Via'), -0.23942765490676446), (np.str_('Trump'), -0.1209378173972666), (np.str_('said'), 0.0880823432712369), (np.str_('presidential'), 0.07637020852540889)]"
+3,correct,Fake,Fake,99.12,"[(np.str_('GOP'), -0.23111704200933056), (np.str_('VIDEO'), -0.16594156839861465), (np.str_('presidential'), 0.09463652338534462), (np.str_('Republican'), 0.07403811939036237)]"
+4,correct,Real,Real,99.79,"[(np.str_('said'), 0.08557600268258873), (np.str_('Nov'), 0.057240329940757576), (np.str_('Thursday'), 0.03932738907874566), (np.str_('democratic'), 0.03844860844816383)]"
+5,correct,Real,Real,96.89,"[(np.str_('Americans'), -0.11979210676739908), (np.str_('Thursday'), 0.10981180336752318), (np.str_('percent'), 0.10541593051982415), (np.str_('Ipsos'), 0.09185031888327223)]"
+6,misclassified,Real,Fake,95.25,"[(np.str_('obama'), -0.22157333313619995), (np.str_('american'), -0.16162966982072396), (np.str_('book'), 0.09803486350211019), (np.str_('leftwing'), 0.08608807180325784)]"
+7,misclassified,Fake,Real,50.07,"[(np.str_('yesterday'), -0.09620356645035703), (np.str_('hillary'), -0.08396608593567724), (np.str_('doesnt'), 0.07165639152225692), (np.str_('radical'), -0.0674015645210621)]"
+8,misclassified,Real,Fake,71.33,"[(np.str_('didnt'), 0.1524878558083172), (np.str_('couldnt'), 0.12141579125361521), (np.str_('daily'), -0.08749120853968613), (np.str_('election'), 0.08526077919281283)]"
+9,misclassified,Real,Fake,64.89,"[(np.str_('obamas'), 0.12320926061709825), (np.str_('things'), -0.11150915600191175), (np.str_('election'), 0.1029400280836008), (np.str_('hillary'), -0.0892561180438939)]"
+10,misclassified,Real,Fake,52.43,"[(np.str_('tuesday'), 0.19175848112995422), (np.str_('duke'), 0.1354876978564923), (np.str_('even'), -0.13488300653159804), (np.str_('isis'), -0.12314658720226067)]"
